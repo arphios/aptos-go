@@ -1,4 +1,4 @@
-module github.com/c-ollins/aptos-go
+module github.com/arphios/aptos-go
 
 go 1.18
 
