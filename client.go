@@ -162,7 +162,7 @@ func (ac *AptosClient) AccountTransactions(address string, limit, start int) ([]
 
 func (ac *AptosClient) Transaction(hashOrVersion string) (*Transaction, error) {
 
-	path := fmt.Sprint("/transactions/", hashOrVersion)
+	path := fmt.Sprint("/transactions/by_hash/", hashOrVersion)
 
 	var transaction Transaction
 	err := ac.makeRequest("GET", path, nil, &transaction)

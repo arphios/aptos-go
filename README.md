@@ -11,7 +11,7 @@ Go 1.18 or newer
 ### Installation
 
 ```
-go get github.com/c-ollins/aptos-go
+go get github.com/arphios/aptos-go
 ```
 
 ### Usage example
